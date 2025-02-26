@@ -3,6 +3,9 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("Hello");
+    }
+}
         Map<String, Integer> map = new HashMap<>();
         map.put("Hello", 12);
         map.put("Hello1", 12);
@@ -61,9 +64,3 @@ public class Main {
             System.out.println(entry.getValue());
         }
     }
-
-
-
-}
-
-
